@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -6,13 +8,11 @@
 
 body {
     background-color: #F8FAFC;
+    max-width: 1480px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);  
 }
 
-.main-container {
-    max-width: 1480px;
-    margin-inline:  auto;
-    padding-inline: var(--padding-inline-section);
-}
 
 :root {
     --primary-text-color: #0F172A;
@@ -21,3 +21,60 @@ body {
     --padding-inline-section: 20px;
 }
 
+header {
+    position: fixed;
+    width: 100%;
+    background: #F8FAFC;
+    top: 0;
+    border-bottom: 1px solid #e5e7ebbd;
+    z-index: 1000;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Poppins, sans-serif;
+    padding: 10px;
+}
+
+.logo {
+    color: var(--primary-text-color);
+    font-size: 37px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--primary-text-color);
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: var(--secoundry-text-color);
+}
+
+.nav-btn {
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    transition-duration: 400ms;
+}
+
+.nav-btn:hover {
+    transform: scale(1.1);
+}
+
+.hero-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
