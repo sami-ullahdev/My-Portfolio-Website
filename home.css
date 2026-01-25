@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F8FAFC;
+}
+
+.main-container {
+    max-width: 1480px;
+    margin-inline:  auto;
+    padding-inline: var(--padding-inline-section);
+}
+
+:root {
+    --primary-text-color: #0F172A;
+    --secoundry-text-color: #3B82F6;
+    --card-color: #E5E7EB;
+    --padding-inline-section: 20px;
+}
+
