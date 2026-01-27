@@ -8,6 +8,7 @@
 
 body {
     background-color: #F8FAFC;
+    font-family: 'Inter', sans-serif;
 }
 
 .main-container {
@@ -29,6 +30,7 @@ header {
     background: #F8FAFC;
     top: 0;
     border-bottom: 1px solid #e5e7ebbd;
+    font-family: Poppins, sans-serif;
     z-index: 1000;
 }
 
@@ -36,7 +38,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: Poppins, sans-serif;
     padding: 10px;
 }
 
@@ -63,9 +64,12 @@ header {
 }
 
 .nav-btn {
+    background-color: var(--secoundry-text-color);
+    color: #ffffff;
     padding: 6px 10px;
     border-radius: 6px;
     cursor: pointer;
+    border: none;
     font-weight: bold;
     font-size: 14px;
     transition-duration: 400ms;
@@ -79,4 +83,48 @@ header {
     min-height: 100vh;
     display: flex;
     align-items: center;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  color: #0F172A;
+}
+
+.hero-text h1 span {
+  color: var(--secoundry-text-color);
+}
+
+.hero-text h2 {
+  font-size: 28px;
+  margin: 10px 0;
+  color: var(--primary-text-color);
+}
+
+.hero-text p {
+    font-size: 18px;
+    max-width: 520px;
+    color: var(--primary-text-color);
+}
+
+.hero-btn {
+  display: flex;
+  gap: 16px;
+  margin-top: 15px;
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.btn.primary {
+  background: #3B82F6;
+  color: #fff;
+}
+
+.btn.secondary {
+  border: 2px solid #3B82F6;
+  color: #3B82F6;
 }
