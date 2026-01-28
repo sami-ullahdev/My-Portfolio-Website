@@ -137,12 +137,12 @@ header {
 }
 
 .about {
-    padding: 80px 20px;
+    padding: 60px 20px;
     background: #ffffff;
 }
 
 .about-container {
-    max-width: 800px;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -161,9 +161,9 @@ header {
 
 /* Skill */
 .skill {
-    padding: 80px 20px;
+    padding: 60px 20px;
     background: #ffffff;
-    max-width: 800px;
+    max-width: 1040px;
     margin: auto;
 }
 
@@ -175,7 +175,8 @@ header {
 
 .skill-container {
     display: flex;
-    gap: 15px;
+    gap: 10px;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
