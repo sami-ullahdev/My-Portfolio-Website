@@ -9,7 +9,8 @@
 body {
     font-family: 'Inter', sans-serif;
 }
-ul > li {
+
+ul>li {
     list-style: none;
 }
 
@@ -156,4 +157,35 @@ header {
     color: #475569;
     line-height: 1.7;
     margin-bottom: 14px;
+}
+
+/* Skill */
+.skill {
+    padding: 80px 20px;
+    background: #ffffff;
+    max-width: 800px;
+    margin: auto;
+}
+
+.skill>h2 {
+    font-size: 32px;
+    color: #0F172A;
+    margin-bottom: 20px;
+}
+
+.skill-container {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-container>.skill-card {
+    background: #ffffff;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 15px;
+    border-radius: 12px;
+    width: 215px;
+    height: 150px;
 }
